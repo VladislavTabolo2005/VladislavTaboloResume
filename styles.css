@@ -125,3 +125,12 @@ body {
   margin-right: 20px;
   width: 50%;
  }
+ @media (max-width: 500px)
+ {
+  .form-row {
+    display: block;
+  }
+  .form-group {
+    margin-bottom: 10px;
+  }
+ }
