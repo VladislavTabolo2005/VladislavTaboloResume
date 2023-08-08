@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Roboto&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    background: #f1f1f1;
+    color: #0f141e;
+ }
+ .container {
+   max-width: 750px;
+   margin: auto;
+   padding-top: 30px;
+ }
+ a {
+   color: #000;
+   text-decoration: none;
+ }
+ a:hover {
+   text-decoration:underline ;
+ }
+ a:visited {
+   color: grey;
+ }
+
+ .card {
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+ }
+ .card h2 {
+   margin-bottom: 10px;
+ }
+ .bg-purple {
+    background-color:#E6E6FA ;
+ }
+ .bg-blue {
+    background-color: #B0E0E6;
+ }
+ .photo {
+   box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+   border-radius: 15px;
+   width: 200px;
+ }
+ .text-info p {
+   font-style: italic;
+   font-weight: bold;
+   color: #86898f;
+   margin: 0;
+ }
+ 
+ .info {
+   margin-bottom:15px;
+   display: flex;
+   
+ }
+
+ @media (max-width: 600px)
+ {
+  .info {
+    display: block;
+    text-align: center;
+  }
+ }
+ .text-info {
+  margin-left: 40px;
+ }
+
+ .text-info h2 {
+   margin-bottom: 10px;
+ }
+ .btn {
+   background: black;
+   color:white;
+   border-radius: 5px;
+   padding: 10px 15px;
+   border:none;
+   cursor:pointer;
+   font-family:inherit;
+ }
+ .btn:hover {
+   opacity: 0.8;
+ }
+
+ .list {
+  padding: 0 20px;
+ }
+ .list li {
+  color: #86898f;
+  margin-bottom: 10px;
+ }
+ .table {
+  width: 100%;
+ }
+ .table td {
+  padding-bottom: 10px;
+ }
+ .table td:nth-child(2) {
+  color: #86898f;
+ }
+
+ .form h2 {
+  text-align: center;
+ }
+ .form-group label {
+  display:block;
+  font-size: 14px;
+  color: #86898f;
+ }
+ .form-group input, .form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: black;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+ }
+ .form-row {
+  margin-bottom: 10px;
+  display: flex;
+ }
+ .form-row .form-group {
+  margin-right: 20px;
+  width: 50%;
+ }
